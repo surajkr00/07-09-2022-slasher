@@ -1,0 +1,155 @@
+*{
+    margin: 0;   
+    padding: 0;
+}
+*{
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Mukta', sans-serif;
+}
+.menubar a{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+.btn p{
+    background-color: #2292A3;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Mukta', sans-serif; 
+    width: 200px;
+    font-size: 16px;
+    line-height: 64px;
+    transition: 0.3s;
+}
+main .m_btn1 p:hover{
+    background: #fff;
+    color: black;
+}
+.btn:hover{
+    border: none;
+    outline: none;
+}
+.menubar .btn p:hover,.menubar .btn p:active, .menubar .btn p:focus, .a_aboutus .btn:hover {
+    width: 210px;
+    -webkit-transform: scale(1.1);
+    border: none;
+    outline: none;
+}
+.menubar a:hover{
+    color: #2292a3;
+    transition: all 0.3s;
+}
+.a_banner{
+    position: relative;
+}
+.a_textbanner{
+    font-family: 'Vollkorn', serif;;
+    width: auto;
+    position: absolute;
+    top: 30%;
+    margin-left: 20%;
+    color: #fff;
+    letter-spacing: .5px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.a_textbanner p{
+    font-size: 14px;
+    margin: 0.25px;
+    font-weight: 300;
+}
+.a_aboutus h5, .a_bookseat h5, .a_bookseat h5{
+    color: rgb(217,108,7);
+    margin-bottom: 2%;
+}
+h1{
+    font-weight: 800;
+    line-height: 52px;
+
+}
+
+.a_aboutus img, .a_bookseat img{
+    margin-bottom: 2%;
+}
+.a_banner1{
+    position: relative;
+}
+.a_textbanner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.a_banner2{
+    position: relative;
+}
+.a_textbanner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    margin-left: 4%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.a_servicedetail{
+    margin-bottom: 5%;
+}
+.a_banner3{
+    position: relative;
+}
+.a_textbanner3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.a_banner4{
+    position: relative;
+}
+.a_textbanner4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+main{
+    border-bottom: 2px solid #2292A3;
+    margin-bottom: 5%;
+}
+
